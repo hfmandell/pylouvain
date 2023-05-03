@@ -47,7 +47,7 @@ The code in `pylouvain.py` implements the above algorithm in Python. Stepping th
 - `m`, the sum of all of the edge weights in the graph
 - `k_i`, a list of the sums of the weights of the edges incident to each node
 - `edges_of_node`, a list of lists of edges incident to each node
-- `w`, a list of 
+- `w`
 - `communities`, a list of all the communities (originally a list of just the nodes)
 - `actual_partition`, the partition of nodes that maximizes modularity
 
@@ -63,7 +63,7 @@ It then returns the partitioning of the nodes into communities that maximizes mo
 
 ## Example Usage
 
-The wonderful thing about code is that is can translate thoery into practice. 
+The wonderful thing about code is that is can translate theory into practice. 
 
 ### Dataset
 
@@ -105,6 +105,7 @@ We can translate these back to the original characters, and we see that the "com
 ```
 [
         [Myriel, Napoleon, CountessDeLo, Geborand, Champtercier, Cravatte, Count, OldMan], 
+
         [Perpetue, Simplice], 
 
         [MlleBaptistine, MmeMagloire, Labarre, Valjean, Marguerite, MmeDeR, Isabeau, Gervais, Scaufflaire, Woman1, Toussaint, Fauchelevent, MotherInnocent, Gribier, Jondrette, MmeBurgon], 
