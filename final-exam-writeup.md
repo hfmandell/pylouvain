@@ -3,6 +3,8 @@
 #### By: Hannah Mandell, Stephen Fatuzzo, Dylan Santa
 ##### With credit to the original API athors: Julien Odent, Michael Saint-Guillain
 
+This writeup and accompanying code can be found at [https://github.com/hfmandell/pylouvain](https://github.com/hfmandell/pylouvain).
+
 ## *Question 5* 
 
 *Implement an algorithm for maximizing the modularity of a given weighted network. What does the community structure of your network look like? What method is used for maximizing the modularity? How did you obtain the weighted network? You can use any and all resources for this part!*
