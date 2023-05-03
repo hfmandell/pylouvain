@@ -130,7 +130,7 @@ class PyLouvain:
             network = self.second_phase(network, partition)
             best_partition = partition
             best_q = q
-        return (self.actual_partition, best_q)
+        return (self.actual_partition, best_q, network)
 
     '''
         Computes the modularity of the current network.

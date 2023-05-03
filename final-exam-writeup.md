@@ -99,6 +99,22 @@ From the 77 nodes and 254 initial edges, we get:
 ]
 ```
 
+The weights between the final communities are as such:
+
+```
+(
+        [0, 1, 2, 3, 4, 5], 
+        [
+                ((0, 0), 7), 
+                ((1, 0), 3), ((1, 1), 36), ((1, 2), 1),  ((1, 3), 4),  ((1, 4), 1),
+                ((2, 1), 3), ((2, 2), 31), ((2, 3), 1), 
+                ((3, 1), 7), ((3, 2), 3),  ((3, 3), 36), ((3, 4), 1),  ((3, 5), 5)
+                ((4, 1), 5), ((4, 2), 2),  ((4, 3), 7),  ((4, 4), 18), ((4, 5), 1), 
+                ((5, 5), 66),((5, 3), 5),  ((5, 1), 3),  ((5, 4), 8), 
+        ]
+)
+```
+
 We can translate these back to the original characters, and we see that the "communities" are:
 
 ```
@@ -118,6 +134,10 @@ We can translate these back to the original characters, and we see that the "com
 ```
 
 This configuration maximizes the modularity, which ends up at: `0.5555521111042222`.
+
+The final network of communities looks like:
+
+![Les Mis Graph Network](lesmis.png)
 
 
 ## Resources:
