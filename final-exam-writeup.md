@@ -3,10 +3,9 @@
 #### By: Hannah Mandell, Stephen Fatuzzo, Dylan Santa
 ##### With credit to the original API athors: Julien Odent, Michael Saint-Guillain
 
-## Question 5. 
+## *Question 5* 
 
-Try to apply this on a network that hasn't been worked on yet. 
-Find a dataset and run this algorithm on it.
+*Implement an algorithm for maximizing the modularity of a given weighted network. What does the community structure of your network look like? What method is used for maximizing the modularity? How did you obtain the weighted network? You can use any and all resources for this part!*
 
 ## Background Information
 
