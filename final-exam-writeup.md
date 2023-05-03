@@ -18,7 +18,7 @@ For the sake of community detection, we consider undirectional graphs since comm
 
 ### The Louvain Method
 
-The Louvain method for community detection is a greedy optimization method that extracts communities from large networks by maximizing the modularity of a given weighted network. It was created by [Blondel *et al*. (2008)](https://arxiv.org/pdf/0803.0476.pdf) from the University of Louvain. The algorithm runs in time O(n log n) on the number of nodes in the network, n. 
+The Louvain method for community detection is a greedy optimization method that extracts communities from large networks by maximizing the modularity of a given weighted network. It was created by [Blondel *et al*. (2008)](https://arxiv.org/pdf/0803.0476.pdf) from the University of Louvain. The algorithm runs in time *O(n log n)* on the number of nodes in the network, *n*. 
 
 The algorithm proceeds by first detecting small communities via optimization of modularity on all nodes locally, where modularity is a statistical measure of a community partitioning of the nodes. The algorithm then groups each community of nodes into a single node and repeats the modularity optimization on the existing nodes. More specifically:
 
